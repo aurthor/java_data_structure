@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CircleLinkedList/CircleLinkedList.iml" filepath="$PROJECT_DIR$/CircleLinkedList/CircleLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoubleLinkedList/DoubleLinkedList.iml" filepath="$PROJECT_DIR$/DoubleLinkedList/DoubleLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Queue/Queue.iml" filepath="$PROJECT_DIR$/Queue/Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Search/Search.iml" filepath="$PROJECT_DIR$/Search/Search.iml" />
       <module fileurl="file://$PROJECT_DIR$/SequenceList/SequenceList.iml" filepath="$PROJECT_DIR$/SequenceList/SequenceList.iml" />
       <module fileurl="file://$PROJECT_DIR$/SingleLinkedList/SingleLinkedList.iml" filepath="$PROJECT_DIR$/SingleLinkedList/SingleLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sort/Sort.iml" filepath="$PROJECT_DIR$/Sort/Sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stack/Stack.iml" filepath="$PROJECT_DIR$/Stack/Stack.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_data_structure.iml" filepath="$PROJECT_DIR$/java_data_structure.iml" />
     </modules>
   </component>

@@ -22,7 +22,7 @@ public class SingleLinkedList {
 
     /**
      * 添加元素
-     * @param element
+     * @param element 添加的元素
      */
     public void add(Object element) {
         // 封装成节点对象
@@ -45,7 +45,7 @@ public class SingleLinkedList {
 
     /**
      * 删除索引处节点
-     * @param index
+     * @param index 索引
      */
     public void remove(int index) {
         // 检查索引
@@ -79,8 +79,8 @@ public class SingleLinkedList {
 
     /**
      * 指定索引处添加元素
-     * @param index
-     * @param e
+     * @param index 索引
+     * @param e 添加的元素
      */
     public void add(int index,Object e) {
         // 检查索引
@@ -116,8 +116,8 @@ public class SingleLinkedList {
     }
     /**
      * 根据索引取得节点对象
-     * @param index
-     * @return
+     * @param index 索引
+     * @return 索引处节点
      */
     public Node node(int index) {
         // 检查索引
@@ -131,10 +131,11 @@ public class SingleLinkedList {
     }
     /**
      * 根据索引取值
-     * @param index
-     * @return
+     * @param index 索引
+     * @return 索引处节点元素
      */
     public Object get(int index) {
+        // 检查索引
         rangeCheck(index);
         // 获取索引处节点
         Node node = node(index);
@@ -143,7 +144,7 @@ public class SingleLinkedList {
     }
     /**
      * 检查索引是否合法
-     * @param index
+     * @param index 索引
      */
     public void rangeCheck(int index) {
         if (index < 0 || index >= size) {
@@ -153,7 +154,7 @@ public class SingleLinkedList {
 
     /**
      * 获取单链表长度
-     * @return
+     * @return 链表长度
      */
     public int getSize() {
         return size;

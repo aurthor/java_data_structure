@@ -24,7 +24,7 @@ public class SequenceList {
 
     /**
      * 构建一个长度为initialCapacity的顺序表
-     * @param initialCapacity
+     * @param initialCapacity 初始化容量
      */
     public SequenceList(int initialCapacity) {
         // 判断长度是否合法
@@ -35,7 +35,7 @@ public class SequenceList {
     }
     /**
      * 添加元素
-     * @param element
+     * @param element 添加的元素
      */
     public void add(Object element) {
         // 检查是否需要扩容
@@ -45,8 +45,8 @@ public class SequenceList {
 
     /**
      * 获取索引位置的值
-     * @param index
-     * @return
+     * @param index 索引
+     * @return 索引位置的值
      */
     public Object get(int index) {
         // 检查索引是否合法
@@ -56,7 +56,7 @@ public class SequenceList {
 
     /**
      * 删除索引位置的值
-     * @param index
+     * @param index 索引
      */
     public void remove(int index) {
         // 检查索引是否合法
@@ -68,8 +68,8 @@ public class SequenceList {
 
     /**
      * 在索引位置插入元素
-     * @param index
-     * @param element
+     * @param index 索引
+     * @param element 元素
      */
     public void add(int index,Object element) {
         rangeCheck(index);
@@ -80,7 +80,7 @@ public class SequenceList {
     }
     /**
      * 检查索引是否合法
-     * @param index
+     * @param index 索引
      */
     public void rangeCheck(int index) {
         if (index < 0 || index >size) {
